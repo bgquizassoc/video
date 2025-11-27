@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Игри на Знания – Видео архив</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #0b1838; /* тъмносин фон */
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 20px;
+        font-size: 2.3em;
+        color: #ffd100;
+        text-shadow: 0 0 6px #ffcc33;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        color: #ffdd55;
+        margin-top: -10px;
+        margin-bottom: 30px;
+        text-shadow: 0 0 5px #ffcc33;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .video-box {
+        background: rgba(255,255,255,0.05);
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    iframe {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    .info-row {
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1em;
+        padding: 0 8px;
+    }
+
+    .info-row a {
+        color: #ffd100;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .info-row a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Игри на Знания</h1>
+<h2>⚡ Светкавичен куиз – Видео архив ⚡</h2>
+
+<div class="grid">
+
+    <!-- Видео 1 -->
+    <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+        <div class="info-row">
+            <span>Епизод 1</span>
+            <a href="ranking1.html">Класиране</a>
+        </div>
+    </div>
+
+    <!-- Видео 2 -->
+    <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+        <div class="info-row">
+            <span>Епизод 2</span>
+            <a href="ranking2.html">Класиране</a>
+        </div>
+    </div>
+
+    <!-- Видео 3 -->
+    <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+        <div class="info-row">
+            <span>Епизод 3</span>
+            <a href="ranking3.html">Класиране</a>
+        </div>
+    </div>
+
+    <!-- Добавяй нови видеа по този модел -->
+</div>
+
+</body>
+</html>
