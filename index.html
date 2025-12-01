@@ -75,13 +75,53 @@
     box-shadow: 0 0 10px rgba(255,255,255,0.15);
     margin-bottom: 25px; /* ЕТО ТОВА ГИ РАЗДЕЛЯ */
 }
+    /* Кутия за всяко видео */
+.video-card {
+    background: rgba(255,255,255,0.06);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.12);
+    margin-bottom: 25px; /* ОТСТЪП МЕЖДУ ВИДЕАТА */
+}
+
+/* Thumbnail изображението */
+.video-card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px; /* ОТСТЪП между тъмбнейл и текста */
+}
+
+/* Редът с текст + класиране */
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 5px;
+}
+
+.video-info .title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rank-link {
+    color: #ffd100;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rank-link:hover {
+    text-decoration: underline;
+}
 </style>
 </head>
 
 <body>
 
 <h1>Игри на Знания</h1>
-<h2>⚡ Светкавичен куиз – Видео архив 3⚡</h2>
+<h2>⚡ Светкавичен куиз – Видео архив 4⚡</h2>
 
 <div class="grid">
 
@@ -439,6 +479,7 @@
 
 </body>
 </html>
+
 
 
 
